@@ -105,7 +105,7 @@ namespace Win10ThemeSelect {
         private void applyButton_Click(object sender, EventArgs e) {
             if (selectBox.SelectedIndex >= 0) {
                if( ApplySetting(selectBox.SelectedIndex) ) {
-                    SetStatus("Cahnges should be vissible now. If not please relog.");
+                    SetStatus("Changes should be visible now. If not please relog.");
                 } else {
                     SetStatus("Operation failed.");
                     MessageBox.Show(this, "Operation failed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
