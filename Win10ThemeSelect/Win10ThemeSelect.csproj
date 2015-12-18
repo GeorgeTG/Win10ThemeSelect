@@ -91,8 +91,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gplv3.png" />
-    <Resource Include="win10.ico" />
+    <Content Include="win10.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gnuv3.png" />
+    <Content Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
